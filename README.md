@@ -4,5 +4,5 @@ A simple to do list to keep track of activities during the work day. Written usi
 # Deployed URL
 https://bashar147258.github.io/WorkDayScheduler/
 
-#Expected Behavior
+# Expected Behavior
 ![A user clicks on slots on the color-coded calendar and edits the events.](.05-third-party-apis-homework-demo.gif)
