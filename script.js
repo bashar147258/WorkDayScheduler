@@ -1,17 +1,18 @@
-var currHour= 14 //moment().format("H")
+var currHour= moment().format("H")
+console.log(currHour)
 var currDay = $("#currentDay").text(moment().format("dddd, MMMM Do, h:mm A"));
 
 //Get the stored todos from the time blocks
 function showToDos(){
-  $("#9").val(localStorage.getItem("toDos"));
-  $("#10").val(localStorage.getItem("toDos"));
-  $("#11").val(localStorage.getItem("toDos"));
-  $("#12").val(localStorage.getItem("toDos"));
-  $("#13").val(localStorage.getItem("toDos"));
-  $("#14").val(localStorage.getItem("toDos"));
-  $("#15").val(localStorage.getItem("toDos"));
-  $("#16").val(localStorage.getItem("toDos"));
-  $("#17").val(localStorage.getItem("toDos"));
+  $("#9").val(localStorage.getItem("9"));
+  $("#10").val(localStorage.getItem("10"));
+  $("#11").val(localStorage.getItem("11"));
+  $("#12").val(localStorage.getItem("12"));
+  $("#13").val(localStorage.getItem("13"));
+  $("#14").val(localStorage.getItem("14"));
+  $("#15").val(localStorage.getItem("15"));
+  $("#16").val(localStorage.getItem("16"));
+  $("#17").val(localStorage.getItem("17"));
 }
 
 //Save Button
